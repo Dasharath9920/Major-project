@@ -1,0 +1,27 @@
+.modal {
+  position: absolute;
+  left: auto;
+  top: auto;
+  margin-top: 100px;
+  width: 600px;
+  height: 400px;
+  background-color: rgb(255, 251, 138);
+  box-shadow: 5px 5px 10px 0.1px grey;
+  z-index: 200;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.warning {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.suggest {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 40px;
+}
